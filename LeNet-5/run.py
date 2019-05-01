@@ -63,6 +63,7 @@ def train(epoch):
 
         loss.backward()
         optimizer.step()
+    torch.save(net,"models/model.bin")
 
 
 def test():
