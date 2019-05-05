@@ -1,5 +1,10 @@
+
 # neural-network-compression
 Neural Network Compression
+
+# Objective
+
+# Approached Methods
 
 # Papers
 * squeezenet paper
