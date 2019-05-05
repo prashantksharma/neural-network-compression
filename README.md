@@ -27,9 +27,12 @@ In the figure explained above, squeeze layer have only **1x1** filters and Expan
 * squeezenet paper
 * deep compression
 
-## Experiment 
-1. Cifar classification using pytroch squeezenet
-2. MNIST using pytorch squeTezenet
+## Dataset 
+1. CIFAR10
+2. MNIST 
+## Arcitecture
+1. LeNet5
+2. VGGNet
 
 
 
