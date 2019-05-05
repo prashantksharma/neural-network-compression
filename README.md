@@ -6,7 +6,7 @@ Neural Network Compression
 
 # Approached Methods
 We have started with these papers [Deep Compression](https://arxiv.org/abs/1510.00149) and  [SqueezeNet](https://arxiv.org/abs/1602.07360).In SqueezeNet, each convolutional layer will be replaced with a Fire Module. The basic block diagram of Fire Module is below:
-![Fire Module](https://github.com/prashantksharma/neural-network-compression/blob/master/fire_module.png ){ width=50% }
+![Fire Module](https://github.com/prashantksharma/neural-network-compression/blob/master/fire_module.png ){:width=50%}
 
 # Papers
 * squeezenet paper
