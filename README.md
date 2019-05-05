@@ -22,16 +22,11 @@ The strategy behind using this Fire Module is to reduce the size of kernels. Fir
 * Expand Layer.\\
 In the figure explained above, squeeze layer have only **1x1** filters and Expand layer consists both **1x1 and 3x3** filters. So, there are three tunable parameters in this Fire Module, i.e sizes of 1x1 in squeeze layer and sizes of 1x1 and 3x3 in expand layer. The other two strategies used in Squeezenet are Decreasing the number channels and Downsampling later deep in the network to have larger activation maps.
 
-
-# Papers
-* squeezenet paper
-* deep compression
-
 ### Dataset 
 1. CIFAR10
 2. MNIST 
 ### Arcitecture
-1. LeNet5
+1. LeNet-5
 2. VGGNet
 
 
