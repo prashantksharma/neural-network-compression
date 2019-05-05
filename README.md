@@ -5,7 +5,8 @@ Neural Network Compression
 # Objective
 
 # Approached Methods
-We have started with these papers[Deep Compression](https://arxiv.org/abs/1510.00149) [SqueezeNet](https://arxiv.org/abs/1602.07360).
+We have started with these papers [Deep Compression](https://arxiv.org/abs/1510.00149) and  [SqueezeNet](https://arxiv.org/abs/1602.07360).In SqueezeNet, each convolutional layer will be replaced with a Fire Module. The basic block diagram of Fire Module is below:
+![Fire Module](https://github.com/prashantksharma/neural-network-compression/blob/master/fire_module.png)
 
 # Papers
 * squeezenet paper
@@ -15,11 +16,7 @@ We have started with these papers[Deep Compression](https://arxiv.org/abs/1510.0
 1. Cifar classification using pytroch squeezenet
 2. MNIST using pytorch squeTezenet
 
-# Abstract
-Recent research on deep convolutional neural networks (CNNs) has focused pri-marily on improving accuracy.  For a given accuracy level, it is typically possi-ble to identify multiple CNN architectures that achieve that accuracy level.  With equivalent accuracy, smaller CNN architectures offer at least three advantages:
-1. Require less communication across servers during distributed train-ing. 
-2. Require less bandwidth to export a new model from thecloud to an autonomous car.
-3. More feasible to deploy on FPGAs and other hardware with limited memory.
+
 
 ## Deep Compressio on MNIST LeNet-5
 https://github.com/mightydeveloper/Deep-Compression-PyTorch
