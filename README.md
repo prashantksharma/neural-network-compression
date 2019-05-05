@@ -5,6 +5,7 @@ Neural Network Compression
 # Objective
 
 # Approached Methods
+We have started with these papers[!Deep Compression](https://arxiv.org/abs/1510.00149) [!SqueezeNet](https://arxiv.org/abs/1602.07360).
 
 # Papers
 * squeezenet paper
