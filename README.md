@@ -3,7 +3,13 @@
 Neural Network Compression
 
 # Objective
-In order to deploy deep learning models on to low power devices or low memory devices or both, there needs to reduction in size of models. This reduction is basically done by both using architectural changes and using techniques like Pruning, Huffman Coding and Weight sharing.
+Recent research on deep convolutional neural networks (CNNs) has focused pri-marily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple CNN architectures that achieve that accuracy level. With equivalent accuracy, smaller CNN architectures offer at least three advantages:
+1. Require less communication across servers during distributed training.  
+2. Require less bandwidth to export a new model to client over the cloud. 
+3. More feasible to deploy on FPGAs and other low power devices or low memory devices.
+
+This reduction in model size is basically done by both using architectural changes and using techniques like Pruning, Huffman Coding and Weight sharing.
+
 # Approached Methods
 We have started with these papers [Deep Compression](https://arxiv.org/abs/1510.00149) and  [SqueezeNet](https://arxiv.org/abs/1602.07360).
 ## SqueezeNet
