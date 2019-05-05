@@ -27,10 +27,10 @@ In the figure explained above, squeeze layer have only **1x1** filters and Expan
 * squeezenet paper
 * deep compression
 
-## Dataset 
+### Dataset 
 1. CIFAR10
 2. MNIST 
-## Arcitecture
+### Arcitecture
 1. LeNet5
 2. VGGNet
 
