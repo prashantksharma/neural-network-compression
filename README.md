@@ -89,6 +89,10 @@ Squeezed Version | MNIST | 2.9MB | 99.6|20
 Original | CIFAR | 80.2 MB | 76.06| 20
 Squeezed Version | CIFAR | 2.9MB  | 62 |20
 
+<img src="https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png" width="400" height="300">
+
+
+* Deep Compression
 **LeNet-5**
 * Pruning and retraining the network
   * Pruning with threshold: 0.21358045935630798 for layer fc1 
