@@ -90,10 +90,9 @@ Original | CIFAR | 80.2 MB | 76.06| 20
 Squeezed Version | CIFAR | 2.9MB  | 62 |20
 
 <!-- <img src="https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png" width="400" height="300"> -->
-
-Solarized dark             |  Solarized Ocean
+CIFAR VGG original            |  CIFAR VGG Squeezenet
 :-------------------------:|:-------------------------:
-![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)
+![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/vggNET_CIFAR.png)
 
 * Deep Compression
 **LeNet-5**
