@@ -10,8 +10,18 @@ Recent research on deep convolutional neural networks (CNNs) has focused pri-mar
 
 This reduction in model size is basically done by both using architectural changes and using techniques like Pruning, Huffman Coding and Weight sharing.
 
+# Requirements
+Following python packages are required:
+
+* Python3.6+
+* pytorch, torchvision
+* numpy
+* scikit-learn
+* tqdm
+
+
 # Approached Methods
-We have started with these papers [Deep Compression](https://arxiv.org/abs/1510.00149) and  [SqueezeNet](https://arxiv.org/abs/1602.07360).
+In our approach we have tried We have started with these papers [SqueezeNet](https://arxiv.org/abs/1602.07360) and  [Deep Compression](https://arxiv.org/abs/1510.00149).
 ## SqueezeNet
 The main objective is to make changes in architecture to have model compression(reduction in number of parameters used) without significant loss in accuracy. Each convolutional layer will be replaced with a Fire Module. The basic block diagram of Fire Module is below:
 <!---![Fire Module](https://github.com/prashantksharma/neural-network-compression/blob/master/fire_module.png ) -->
@@ -19,7 +29,7 @@ The main objective is to make changes in architecture to have model compression(
 
 The strategy behind using this Fire Module is to reduce the size of kernels. Fire module consists of two layers: 
 * Squeeze Layer
-* Expand Layer.\\
+* Expand Layer\\
 In the figure explained above, squeeze layer have only **1x1** filters and Expand layer consists both **1x1 and 3x3** filters. So, there are three tunable parameters in this Fire Module, i.e sizes of 1x1 in squeeze layer and sizes of 1x1 and 3x3 in expand layer. The other two strategies used in Squeezenet are Decreasing the number channels and Downsampling later deep in the network to have larger activation maps.
 
 ### Dataset 
@@ -31,7 +41,13 @@ In the figure explained above, squeeze layer have only **1x1** filters and Expan
 
 
 
-## Deep Compression on MNIST LeNet-5
-https://github.com/mightydeveloper/Deep-Compression-PyTorch
+
+
+## Deep Compression 
+In the paper Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding, the authors have proposed a three-stage pipeline to reduce the storage requiments of deep neural networks:
+1. Pruning 
+2. Quantization
+3. Huffman Encoding
+
 
 
