@@ -62,10 +62,10 @@ Experiments were performed by applying the ideas of deep compression on followin
 **LeNet-5**
 * Pruning 
   * Before pruning
-|   stages  |Total| pruned| active| Compression Rate | % pruned |
-|-----|-----|-----|-----|-----|-----|
-|Before Pruning |44426| 0 | 44426| 1x | 0%|
-|After Pruning | 44426| 10223 | 34023 | 1.3x | 23.01%|
+stages  | Total | pruned | active | Compression Rate | % pruned 
+-----|-----|-----|-----|-----|-----
+Before Pruning | 44426 | 0 | 44426 | 1x | 0%
+After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01%
   
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
