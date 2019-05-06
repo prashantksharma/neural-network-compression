@@ -69,9 +69,9 @@ Experiments were performed by applying the ideas of deep compression on followin
   
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| col 1 issdfsdfd |  left-aligned | $1600 |
+| col 2 is |   sdfsdfs centered   |   $12 |
+| col 3 is | right-alisdfsdfgned |    $1 |
     
   
 
