@@ -90,6 +90,14 @@ Original | CIFAR | 80.2 MB | 76.06| 20
 Squeezed Version | CIFAR | 2.9MB  | 62 |20
 
 <!-- <img src="https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png" width="400" height="300"> -->
+MNIST LeNET original            |  MNIST LeNET Squeezenet
+:-------------------------:|:-------------------------:
+![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/lenet_unmodified_graph.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/lenet_mytry_graph.png)
+
+MNIST VGG original            |  MNIST VGG Squeezenet
+:-------------------------:|:-------------------------:
+![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/mnist_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/vggNET_MNIST.png)
+
 CIFAR VGG original            |  CIFAR VGG Squeezenet
 :-------------------------:|:-------------------------:
 ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/vggNET_CIFAR.png)
