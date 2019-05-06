@@ -71,7 +71,7 @@ Experiments were performed by applying the ideas of deep compression on followin
    
 
 # Results 
-** SqueezeNet**
+** SqueezeNet **
 
 * LeNet 
 
@@ -102,7 +102,7 @@ CIFAR VGG original            |  CIFAR VGG Squeezenet
 :-------------------------:|:-------------------------:
 ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/vggNET_CIFAR.png)
 
-* Deep Compression
+** Deep Compression **
 **LeNet-5**
 * Pruning and retraining the network
   * Pruning with threshold: 0.21358045935630798 for layer fc1 
