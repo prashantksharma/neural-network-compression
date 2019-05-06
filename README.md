@@ -84,4 +84,4 @@ In this stage of pipeline we apply huffman encdoing algorithm to each weight in 
 
 
 
-
+![huffman](img/lenet_5_encoding.png)
