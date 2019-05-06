@@ -93,16 +93,16 @@ In this stage of pipeline we apply huffman encdoing algorithm to each weight in 
   
 stages  | Total | pruned | active | Compression Rate | percentage pruned | Accuracy
 ---|---|---|---|---|---|--
-Before Pruning | 44426 | 0 | 44426 | 1x | 0% | 97.47%
-After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01% | **98.40%**
+Before Pruning | 266610 | 0 | 266610 | 1x | 0% | 53.39%
+After Pruning | 266610 |253692| 12918 | 20.64x |95.15% |**96.54%**
   
 * Weight Sharing
 Every non-zero weight is clustered in  i.e 2^5 = 32 groups.
 
 stages  | Avg. Loss |  Accuracy
 ---|---|---
-Before weight sharing | 0.0659 | 98.32%
-After weight sharing | 0.0650 | **98.37%**
+Before weight sharing | 0.1773 | 95.43%
+After weight sharing | 0.1795 | **95.27%**
 
 * Huffman Encoding  
 In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
