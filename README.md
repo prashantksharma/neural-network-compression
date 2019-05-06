@@ -57,7 +57,11 @@ Experiments were performed by applying the ideas of deep compression on followin
 * LeNet-5
 * VGG-19
 
-#### Syntax
+## Code Dependencies
+* Visdom : sudo apt install visdom & pip install visdom (For ubuntu & Python 2.x)
+* Torch : pip install torch
+* Torchvision : pip install torch torchvision
+
 
 # Results 
 
@@ -69,19 +73,6 @@ Experiments were performed by applying the ideas of deep compression on followin
 stages  | Total | pruned | active | Compression Rate | percentage pruned | Accuracy
 ---|---|---|---|---|---|--
 Before Pruning | 44426 | 0 | 44426 | 1x | 0% | 97.47%
-After Pruning + Retraining | 44426 | 10223 | 34023 | 1.3x | 23.01% | **98.40%**
+After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01% | **98.40%**
+  
 
-* Weight Sharing  
-Every non-zero weight is clustered in  i.e 2^5 = 32 groups.
-
-stages  | Avg. Loss |  Accuracy
----|---|---
-Before weight sharing | 0.0659 | 98.32%
-After weight sharing | 0.0650 | **98.37%**
-
-* Huffman Encoding
-In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
-
-
-
-![huffman](img/lenet_5_encoding.png)
