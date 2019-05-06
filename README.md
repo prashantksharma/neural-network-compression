@@ -72,6 +72,9 @@ After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01%
 | col 1 issdfsdfd |  left-aligned | $1600 |
 | col 2 is |   sdfsdfs centered   |   $12 |
 | col 3 is | right-alisdfsdfgned |    $1 |
+
+stages  | Total | pruned | active | Compression Rate | percentage pruned 
+---|---|---|---|---|---
     
   
 
