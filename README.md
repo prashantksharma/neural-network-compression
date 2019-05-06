@@ -60,18 +60,22 @@ Experiments were performed by applying the ideas of deep compression on followin
 
 # Results 
 ** SqueezeNet**
-* LeNet *
+
+* LeNet 
+
 Type | Model Size | Accuracy 
 --- |---| ---
 Original | 269KB | 99.07
 Squeezed Version | 72KB | 98.42
-* VGG *
+
+* VGG 
+
 Type |Dataset| Model Size | Accuracy | Epochs
 --- |---| ---|---|---
 Original | MNIST | 79 MB | 97.85| 20
-Squeezed Version |MNIST| 2.9MB | 99.6|20
-Original | CIFAR |80.2 MB | 76.06| 20
-Squeezed Version |CIFAR | 2.9MB  | 62 |20
+Squeezed Version | MNIST | 2.9MB | 99.6|20
+Original | CIFAR | 80.2 MB | 76.06| 20
+Squeezed Version | CIFAR | 2.9MB  | 62 |20
 
 **LeNet-5**
 * Pruning and retraining the network
