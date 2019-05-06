@@ -161,6 +161,6 @@ Model | Initial Model Size | Compressed
 LeNet-300-100| 2.1 MB | 26.5 KB
 LeNet-5 | 235 KB | ~200 KB (~3KB FC weight and biases) 
 
-# Refrences
+# References
 * For Huffman encoding: https://stackoverflow.com/questions/759707/efficient-way-of-storing-huffman-tree
  
