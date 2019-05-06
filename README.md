@@ -35,11 +35,9 @@ In the figure explained above, squeeze layer have only **1x1** filters and Expan
 ### Dataset 
 1. CIFAR10
 2. MNIST 
-### Arcitecture
+### Architecture
 1. LeNet-5
 2. VGGNet
-
-
 
 
 
@@ -49,5 +47,18 @@ In the paper Deep Compression: Compressing Deep Neural Networks with Pruning, Tr
 2. Quantization
 3. Huffman Encoding
 
+
+### Dataset:
+* MINIST-6000 : The training set contains 60000 examples, and the test set 10000 examples. 
+
+### Architecture
+Experiments were performed by applying the ideas of deep compression on following architechtures:
+* LeNet-300-100
+* LeNet-5
+* VGG-19
+
+# Results 
+
+| Model |  Before Pruning | After Pruning | After Qua
 
 
