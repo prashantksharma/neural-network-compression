@@ -18,7 +18,7 @@ Following python packages are required:
 * numpy
 * scikit-learn
 * tqdm
-
+* Visdom : sudo apt install visdom & pip install visdom (For ubuntu & Python 2.x)
 
 # Approached Methods
 In our approach we have tried We have started with these papers [SqueezeNet](https://arxiv.org/abs/1602.07360) and  [Deep Compression](https://arxiv.org/abs/1510.00149).
@@ -57,11 +57,6 @@ Experiments were performed by applying the ideas of deep compression on followin
 * LeNet-5
 * VGG-19
 
-## Code Dependencies
-* Visdom : sudo apt install visdom & pip install visdom (For ubuntu & Python 2.x)
-* Torch : pip install torch
-* Torchvision : pip install torch torchvision
-
 
 # Results 
 
@@ -84,7 +79,7 @@ stages  | Avg. Loss |  Accuracy
 Before weight sharing | 0.0659 | 98.32%
 After weight sharing | 0.0650 | **98.37%**
 
-* Huffman Encoding
+* Huffman Encoding  
 In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
 
 
