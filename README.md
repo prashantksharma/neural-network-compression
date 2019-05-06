@@ -57,6 +57,18 @@ Experiments were performed by applying the ideas of deep compression on followin
 * LeNet-5
 * VGG-19
 
+# Observations
+  * MaxPool over AveragePool 
+
+   * Decrease in number of Feature Maps deep in the architecture
+
+   * Number of Feature maps per layer depends upon the type of Dataset chosen
+
+   * Fire modules should be implemented later in the Network 
+
+   * Replacing 5x5 with two 3x3 results slight drop in accuracy
+
+   
 
 # Results 
 ** SqueezeNet**
