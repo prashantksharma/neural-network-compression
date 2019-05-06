@@ -60,7 +60,6 @@ Experiments were performed by applying the ideas of deep compression on followin
 
 # Results 
 
-
 **LeNet-5**
 * Pruning and retraining the network
   * Pruning with threshold: 0.21358045935630798 for layer fc1 
@@ -83,6 +82,36 @@ After weight sharing | 0.0650 | **98.37%**
 In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
 
 
+![huffman](img/lenet_5_encoding.png)
+
+
+**LeNet-300-100**
+* Pruning and retraining the network
+  * Pruning with threshold : 0.23225528001785278 for layer fc1
+  * Pruning with threshold : 0.19299329817295074 for layer fc2
+  * Pruning with threshold : 0.21703356504440308 for layer fc3
+  
+stages  | Total | pruned | active | Compression Rate | percentage pruned | Accuracy
+---|---|---|---|---|---|--
+Before Pruning | 44426 | 0 | 44426 | 1x | 0% | 97.47%
+After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01% | **98.40%**
+  
+* Weight Sharing
+Every non-zero weight is clustered in  i.e 2^5 = 32 groups.
+
+stages  | Avg. Loss |  Accuracy
+---|---|---
+Before weight sharing | 0.0659 | 98.32%
+After weight sharing | 0.0650 | **98.37%**
+
+* Huffman Encoding  
+In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
+
 
 ![huffman](img/lenet_5_encoding.png)
 
+
+Model | Initial Model Size | Compressed
+---|---|---
+LeNet-300-100| 2.1 MB | 26.5 KB
+LeNet-5 | 
