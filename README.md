@@ -3,7 +3,7 @@
 Neural Network Compression
 
 # Objective
-Main objective of this project is to explore ways to compress deep neural networks, so as that state of the art performance can be ahieved over a resource-constrained devices eg. embedded devices.  
+Main objective of this project is to explore ways to compress deep neural networks, so that the state of the art performance can be ahieved over a resource-constrained devices eg. embedded devices.  
 
 Recent research on deep neural networks has focused primarily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple Neural Network architectures that achieve similar accuracy level. With equivalent accuracy, smaller architectures offer at least three advantages:
 1. Require less communication across servers during distributed training.  
