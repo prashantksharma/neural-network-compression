@@ -3,7 +3,9 @@
 Neural Network Compression
 
 # Objective
-Recent research on deep convolutional neural networks (CNNs) has focused pri-marily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple CNN architectures that achieve that accuracy level. With equivalent accuracy, smaller CNN architectures offer at least three advantages:
+Main objective of this project is to explore ways to compress deep neural networks, so as that state of the art performance can be ahieved over a resource-constrained devices eg. embedded devices.  
+
+Recent research on deep neural networks has focused primarily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple Neural Network architectures that achieve similar accuracy level. With equivalent accuracy, smaller architectures offer at least three advantages:
 1. Require less communication across servers during distributed training.  
 2. Require less bandwidth to export a new model to client over the cloud. 
 3. More feasible to deploy on FPGAs and other low power devices or low memory devices.
