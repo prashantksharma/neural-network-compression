@@ -1,0 +1,17 @@
+accuracy before weight sharing
+Test set: Average loss: 0.0567, Accuracy: 9840/10000 (98.40%)
+### model children <generator object Module.children at 0x7fef8ae852b0>
+## children: Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1)) ## type: <class 'torch.nn.modules.conv.Conv2d'>
+## c.weight torch.Size([6, 1, 5, 5])
+## children: Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1)) ## type: <class 'torch.nn.modules.conv.Conv2d'>
+## c.weight torch.Size([16, 6, 5, 5])
+## children: Conv2d(16, 120, kernel_size=(4, 4), stride=(1, 1)) ## type: <class 'torch.nn.modules.conv.Conv2d'>
+## c.weight torch.Size([120, 16, 4, 4])
+## children: MaskedLinear(in_features=120, out_features=84, bias=True) ## type: <class 'net.prune.MaskedLinear'>
+## c.weight torch.Size([84, 120])
+@@@ GOT linear 
+## children: MaskedLinear(in_features=84, out_features=10, bias=True) ## type: <class 'net.prune.MaskedLinear'>
+## c.weight torch.Size([10, 84])
+@@@ GOT linear 
+accuacy after weight sharing
+Test set: Average loss: 0.0572, Accuracy: 9837/10000 (98.37%)

@@ -108,10 +108,11 @@ After weight sharing | 0.1795 | **95.27%**
 In this stage of pipeline we apply huffman encdoing algorithm to each weight in the network.
 
 
-![huffman](img/lenet_5_encoding.png)
+![huffman](img/lenet_300_100.png)
 
 
 Model | Initial Model Size | Compressed
 ---|---|---
 LeNet-300-100| 2.1 MB | 26.5 KB
-LeNet-5 | 
+LeNet-5 | 235 KB | ~200 KB (~3KB FC weight and biases) 
+ 
