@@ -65,7 +65,7 @@ Experiments were performed by applying the ideas of deep compression on followin
 * Pruning and retraining the network
   * Pruning with threshold: 0.21358045935630798 for layer fc1 
   * Pruning with threshold: 0.25802576541900635 for layer fc2  
-  * Epochs = 20  
+  
 stages  | Total | pruned | active | Compression Rate | percentage pruned | Accuracy
 ---|---|---|---|---|---|--
 Before Pruning | 44426 | 0 | 44426 | 1x | 0% | 97.47%
