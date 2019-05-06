@@ -71,7 +71,7 @@ Experiments were performed by applying the ideas of deep compression on followin
    
 
 # Results 
-** SqueezeNet **
+**SqueezeNet**
 
 * LeNet 
 
@@ -102,8 +102,8 @@ CIFAR VGG original            |  CIFAR VGG Squeezenet
 :-------------------------:|:-------------------------:
 ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/cifar_vgg_original.png)  |  ![](https://github.com/prashantksharma/neural-network-compression/blob/master/img/vggNET_CIFAR.png)
 
-** Deep Compression **
-**LeNet-5**
+**Deep Compression**
+* **LeNet-5**
 * Pruning and retraining the network
   * Pruning with threshold: 0.21358045935630798 for layer fc1 
   * Pruning with threshold: 0.25802576541900635 for layer fc2  
@@ -128,7 +128,7 @@ In this stage of pipeline we apply huffman encdoing algorithm to each weight in 
 ![huffman](img/lenet_5_encoding.png)
 
 
-**LeNet-300-100**
+* **LeNet-300-100**
 * Pruning and retraining the network
   * Pruning with threshold : 0.23225528001785278 for layer fc1
   * Pruning with threshold : 0.19299329817295074 for layer fc2
