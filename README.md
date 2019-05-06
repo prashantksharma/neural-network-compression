@@ -60,22 +60,13 @@ Experiments were performed by applying the ideas of deep compression on followin
 # Results 
 
 **LeNet-5**
-* Pruning 
-  * Before pruning
-stages  | Total | pruned | active | Compression Rate | percentage pruned 
------|-----|-----|-----|-----|-----
-Before Pruning | 44426 | 0 | 44426 | 1x | 0%
-After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01%
-  
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 issdfsdfd |  left-aligned | $1600 |
-| col 2 is |   sdfsdfs centered   |   $12 |
-| col 3 is | right-alisdfsdfgned |    $1 |
+* Pruning and retraining the network
+  * Pruning with threshold: 0.21358045935630798 for layer fc1
+  * Pruning with threshold: 0.25802576541900635 for layer fc2
 
-stages  | Total | pruned | active | Compression Rate | percentage pruned 
----|---|---|---|---|---
-Before Pruning | 44426 | 0 | 44426 | 1x | 0%
-After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01%
+stages  | Total | pruned | active | Compression Rate | percentage pruned | Accuracy
+---|---|---|---|---|---|--
+Before Pruning | 44426 | 0 | 44426 | 1x | 0% | 97.47%
+After Pruning | 44426 | 10223 | 34023 | 1.3x | 23.01% | **98.40%**
   
 
